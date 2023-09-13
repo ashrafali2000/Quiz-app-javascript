@@ -1,9 +1,5 @@
 #myDiv1,#lastDivChildId,#resultDivId{
-    background-color: rgb(49, 159, 150);
-    color: #ffffff !important;
-    display: flex;
-    flex-direction: column;
-    gap: 15px !important;
+    background-color: rgb(240, 229, 185);
     padding: 35px;
     width: 500px;
     color: rgb(0, 0, 0);
@@ -43,7 +39,6 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 27px;
-    color: #46a146;
 }
 
 /* header */
@@ -88,5 +83,8 @@ body{
   @media screen and (max-width:576px) {
     #myQuestions{
         font-size: 24px;
+    }
+    #myPara1, #myPara2,#myPara3, #myPara4, #myPara5{
+        font-size: 20px;
     }
   }
