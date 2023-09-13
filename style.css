@@ -1,13 +1,18 @@
 #myDiv1,#lastDivChildId,#resultDivId{
-    background-color: rgb(241, 217, 213);
-    padding: 15px;
+    background-color: rgb(49, 159, 150);
+    color: #ffffff !important;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 35px;
     width: 500px;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 22px;
+    border-radius: 20px;
 }
 #resultDivId{
     background-color: rgb(231, 207, 202);
-    padding: 15px;
+    padding: 25px;
     width: 500px;
     font-size: 20px;
     color: rgb(6, 6, 6);
@@ -28,6 +33,7 @@ body{
     color: #fff;
     padding: 7px 20px;
     font-size: 15px;
+    border-radius: 20px;
 }
 #resultId{
     width: 100px;
@@ -46,7 +52,7 @@ body{
 
 /* header */
 .header{
-    background-color: black;
+    background-color: rgb(67, 171, 19);
     color: #fff;
     padding: 20px;
     animation-duration: 4s;
