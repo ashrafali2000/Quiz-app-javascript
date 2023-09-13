@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize App-1</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <h1 class="header">WellCome to Our Quiz App</h1>
+
+        <div class="allQuizHeader">
+            <div>
+                <input name="myallRadio" type="radio" id="html"/> <label for="html">HTML 5</label>
+            </div>
+
+            <div>
+                <input name="myallRadio" type="radio" id="css"/>  <label for="css">CSS 3</label>
+            </div>
+            
+            <div>
+                <input name="myallRadio" type="radio" id="Javascript"/> <label for="Javascript">Javascript</label>
+            </div>
+
+            <div>
+                <input name="myallRadio" type="radio" id="Reactjs"/> <label for="Reactjs">Reactjs</label>
+            </div>
+
+            <div>
+                <input name="myallRadio" type="radio" id="Nextjs"/> <label for="Nextjs">Nextjs</label>
+            </div>
+            <div style="text-align: center;">
+                <button  type="submit"  class="StartBtn" onclick="firstCLicker()">Start -></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="myDiv1" style="display: none;">
+        <h2 id="myQuestions"></h2>
+        <div> <input id="inputDisable1" name="myquize" type="radio"><label for="inputDisable1" id="myPara1"></label></div>
+        <div> <input id="inputDisable2" name="myquize" type="radio"><label for="inputDisable2" id="myPara2"></label></div>
+        <div> <input id="inputDisable3" name="myquize" type="radio"><label for="inputDisable3" id="myPara3"></label></div>
+        <div> <input id="inputDisable4" name="myquize" type="radio"><label for="inputDisable4" id="myPara4"></label></div>
+        <!-- <div> <button onclick="loader(); clicker()" id="myButton">Next</button></div> -->
+    </div>
+</body>
+</html>
